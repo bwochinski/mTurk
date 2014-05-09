@@ -83,7 +83,7 @@ if (isMturkOrigin(location.href) && $("div.panel-body p").text() == "Find a URL 
             window.opener.postMessage({magicword: "blarf", url: pageUrl}, "*");
             //console.log({magicword: "blarf", task: taskNumber, url: pageUrl});
             //sleep(100);
-            window.close();          
+            //window.close();          
         });
     });
 }
